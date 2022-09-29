@@ -1,17 +1,67 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Calculadora
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<!-- Label -->
+<ion-item>
+  <ion-label>Valor 1</ion-label>
+</ion-item>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+<!-- Input -->
+
+<ion-input></ion-input>
+
+<!-- Label 2 -->
+<ion-item>
+  <ion-label>Valor 2</ion-label>
+</ion-item>
+
+<!-- Input 2 -->
+
+<ion-input></ion-input>
+
+<!-- Grid e botão 1 -->
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-button>+</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button>-</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button>*</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button>/</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<!--Botão 2 -->
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-button>Maior</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button>Menor</ion-button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+
+<!-- Label 3 -->
+<ion-item>
+  <ion-label>Resultado</ion-label>
+</ion-item>
+<ion-item>
+  <ion-label>Operação</ion-label>
+</ion-item>
+
+
 </ion-content>
