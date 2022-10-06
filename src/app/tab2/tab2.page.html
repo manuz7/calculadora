@@ -6,59 +6,66 @@
   </ion-toolbar>
 </ion-header>
 
+
+
 <ion-content [fullscreen]="true">
+
+
  <!-- Label -->
 <ion-item>
-  <ion-label>Operação</ion-label>
+  <ion-label> <ion-chip>OPERAÇÃO</ion-chip></ion-label>
 </ion-item>
 
 <!--Input-->
 <ion-input></ion-input>
 
 <!--Item-->
-<ion-item></ion-item>
+<ion-item ></ion-item>
 
 <!-- Grid e botão 1 -->
 
+
 <ion-item>
-<ion-grid >
+<ion-grid>
   <ion-row>
-    <ion-col>
-      <ion-button>MC</ion-button>
+    <ion-col hidden>
+      <ion-button color="tertiary">MC</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>MR</ion-button>
+      <ion-button color="tertiary">MR</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>M+</ion-button>
+      <ion-button color="tertiary">M+</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>M-</ion-button>
+      <ion-button color="tertiary">M-</ion-button>
     </ion-col>
      <ion-col>
-      <ion-button>MS</ion-button>
+      <ion-button color="tertiary">MS</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>M´</ion-button>
+      <ion-button color="tertiary">M´</ion-button>
     </ion-col>
  </ion-row>
 </ion-grid>
 </ion-item>
 
 
-<ion-grid >
+
+<ion-card color= "tertiary" >
+<ion-grid class="calum">
   <ion-row>
     <ion-col>
-      <ion-button>%</ion-button>
+      <ion-button color= "light">%</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>√</ion-button>
+      <ion-button color="light">√</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>x/2</ion-button>
+      <ion-button color="light">x/2</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>1/x</ion-button>
+      <ion-button color="light" >1/x</ion-button>
     </ion-col>
      </ion-row>
 </ion-grid>
@@ -66,18 +73,18 @@
 <ion-grid >
   <ion-row>
     <ion-col>
-      <ion-button>CE</ion-button>
+      <ion-button color="light" >CE</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>C</ion-button>
+      <ion-button color="light" >C</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>
+      <ion-button color="light">
         <ion-icon name="backspace" ></ion-icon>
       </ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>÷</ion-button>
+      <ion-button color="light">÷</ion-button>
     </ion-col>
      </ion-row>
 </ion-grid>
@@ -87,16 +94,16 @@
 <ion-grid>
   <ion-row>
     <ion-col>
-      <ion-button>7</ion-button>
+      <ion-button color="light">7</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>8</ion-button>
+      <ion-button color="light">8</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button> 9 </ion-button>
+      <ion-button color="light"> 9 </ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>X</ion-button>
+      <ion-button color="light">X</ion-button>
     </ion-col>
      </ion-row>
 </ion-grid>
@@ -104,34 +111,16 @@
 <ion-grid>
   <ion-row>
     <ion-col>
-      <ion-button>4</ion-button>
+      <ion-button color="light">4</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>5</ion-button>
+      <ion-button color="light">5</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>6</ion-button>
+      <ion-button color="light">6</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>-</ion-button>
-    </ion-col>
-     </ion-row>
-</ion-grid>
-
-
-<ion-grid>
-  <ion-row>
-    <ion-col>
-      <ion-button>1</ion-button>
-    </ion-col>
-    <ion-col>
-      <ion-button>2</ion-button>
-    </ion-col>
-    <ion-col>
-      <ion-button>3</ion-button>
-    </ion-col>
-    <ion-col>
-      <ion-button>+</ion-button>
+      <ion-button color="light" >-</ion-button>
     </ion-col>
      </ion-row>
 </ion-grid>
@@ -140,19 +129,38 @@
 <ion-grid>
   <ion-row>
     <ion-col>
-      <ion-button>+/-</ion-button>
+      <ion-button color="light">1</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>0</ion-button>
+      <ion-button color="light">2</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button> , </ion-button>
+      <ion-button color="light">3</ion-button>
     </ion-col>
     <ion-col>
-      <ion-button>=</ion-button>
+      <ion-button color="light" >+</ion-button>
     </ion-col>
      </ion-row>
 </ion-grid>
+
+
+<ion-grid>
+  <ion-row>
+    <ion-col>
+      <ion-button color="light">+/-</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button color="light">0</ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button color="light"> , </ion-button>
+    </ion-col>
+    <ion-col>
+      <ion-button color="light">=</ion-button>
+    </ion-col>
+     </ion-row>
+</ion-grid>
+</ion-card>
 
 
 </ion-content>
